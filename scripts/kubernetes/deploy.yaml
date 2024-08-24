@@ -40,6 +40,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 4000     
-imagePullSecrets:
-  - name: acr-secret
+      targetPort: 4000
